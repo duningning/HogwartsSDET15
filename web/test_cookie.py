@@ -110,3 +110,7 @@ class TestWebDemo():
         filename = self.driver.find_element_by_xpath(
             '//*[@id="main"]/div/div[2]/div[2]/div[1]/div[2]').text  # 找到上传后文件的名字
         assert '通讯录批量导入模板.xlsx' == filename  # 断言
+
+
+def xxx():
+    print('xxx')
